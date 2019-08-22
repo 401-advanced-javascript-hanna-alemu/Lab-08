@@ -22,6 +22,8 @@ app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
+app.use('/docs', express.static('./docs'));
+
 //Hanna - Tell app to use the imported routes
 app.use(categoriesRoute);
 app.use(productsRoute);
