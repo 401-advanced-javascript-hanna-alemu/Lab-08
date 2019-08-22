@@ -15,7 +15,8 @@ mongodb://localhost:27017/
    "startDB": "mkdir -p ./.db && mongod --dbpath ./.db"
 
 ### For JS DOCS
-* for your server file: app.use('/docs', express.static('./docs'));
+* http://localhost:3000/docs/
+
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
