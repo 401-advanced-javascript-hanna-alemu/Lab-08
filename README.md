@@ -19,13 +19,12 @@ mongodb://localhost:27017/
 
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR]()
+* [travis]()
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [api docs](http://swagger.io) 
+* [jsdoc](http://localhost:3000/docs)
 
 ### Modules
 #### `modulename.js`
@@ -45,10 +44,23 @@ Usage Notes or examples
 #### Running the app
 * `npm start`
   * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+
+* Endpoint: `/api/v1/categories`
+  * Returns a JSON object with all categories in database in it.
+  
+* Endpoint: `/api/v1/categories:id`
+  * Returns a JSON object with the specified category in database in it.
+  
+* Endpoint: `/api/v1/products`
+  * Returns a JSON object with all products in database in it.
+  
+* Endpoint: `/api/v1/products:id`
+  * Returns a JSON object with a product in database in it.
   
 #### Tests
 
+run npm test
 
 #### UML
+
+![Image of White Board](./UML.jpg)
